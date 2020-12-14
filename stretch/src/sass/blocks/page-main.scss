@@ -39,3 +39,19 @@
     display: block;
   }
 }
+
+.page-main__body {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: $breakpoint-medium) {
+    max-width: $breakpoint-medium;
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    max-width: $breakpoint-large;
+  }
+}
