@@ -1,9 +1,6 @@
 .prices {
     width: 940px;
     margin: 300px auto;
-    text-align: left;
-    border-radius: 8px;
-    border-collapse: separate;
     border-spacing: 0;
 }
 
@@ -12,11 +9,8 @@
 
     color: white;
     background-color: coral;
-    
-    text-align: center;
 }
 
-.prices__title,
 .prices__item {
     width: 20%;
     padding: 17px 22px;
@@ -25,6 +19,7 @@
     border: 1px solid #000;
 
     font-weight: 400;
+    text-align: left;
 }
 
 /* Width and colors */
@@ -33,17 +28,21 @@
     border-left: 1px solid #f2f2f2;
 }
 
-.prices__heading:nth-child(2) {
-    border-left-color: coral;
-}
-
 .prices__heading:last-child {
-    border-right-width: 2px;
-    border-right-color: coral;
+    border-right: 2px solid coral;
 }
 
-.prices__item:first-child {
-    border-left-width: 2px;
+.prices__heading:nth-child(2) {
+    border-left: 1px solid coral;
+}
+
+tr:first-child .prices__item {
+    border-top-width: 2px;
+    border-top-color: coral;
+}
+
+tr:first-child .prices__item:first-child {
+    border-top-color: #000;
 }
 
 .prices__item:last-child {
@@ -54,13 +53,8 @@ tr:last-child .prices__item {
     border-bottom-width: 2px;
 }
 
-tr:first-child .prices__item {
-    border-top-width: 2px;
-    border-top-color: coral;
-}
-
-tr:first-child .prices__item--title {
-    border-top-color: #000;
+.prices__item:first-child {
+    border-left-width: 2px;
 }
 
 /* Radius */
