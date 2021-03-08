@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вкладка Accessibility</title>
+
+    <style>
+        .visually-hidden {
+            position: absolute;
+
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+
+            white-space: nowrap;
+
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+
+        .display-none {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Демо-страница для сравнения доступной разметки</h1>
+        <section>
+            <h2>Доступность</h2>
+            <p>Доступность (англ. accessibility) — создание продуктов, устройств, сервисов или окружающей среды для людей с ограниченными возможностями. Концепция доступного дизайна и практика разработки доступных объектов призваны обеспечить как «прямой доступ» (то есть без сторонней помощи), так и «непрямой доступ», означающий совместимость с вспомогательными технологиями, используемыми человеком (например, скринридерами).</p>
+        </section>
+        <section></section>
+
+        <section>
+            <h2>Сравним 2 по разному спрятанных заголовка:</h2>
+            <h3 class="visually-hidden">Этот спрячем доступно</h3>
+            <h3 class="display-none">Этот спрячем недоступно</h3>
+        </section>
+
+        <section>
+            <h2>Проверим aria-label</h2>
+
+            <button></button>
+            <button>Кнопка</button>
+            <button aria-label="Кнопка"></button>
+        </section>
+    </main>
+</body>
+</html>
