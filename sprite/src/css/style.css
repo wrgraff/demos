@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 40px;
+
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 16px;
+}
+
+h2 {
+  margin: 0;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-weight: 400;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px 16px;
+  background-color: lavender;
+  border-radius: 8px;
+}
+
+strong {
+  width: 100%;
+  margin-bottom: 8px;
+
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+svg,
+img,
+span {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  /* background-color: lavenderblush; */
+  border-radius: 5px;
+}
+
+.bg {
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mask {
+  background-color: black;
+  mask-size: 40px;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+/* Symbol */
+
+.symbol .bg_heart {
+  background-image: url('../img/sprites/symbol.svg#heart');
+}
+
+.symbol .bg_sun {
+  background-image: url('../img/sprites/symbol.svg#sun');
+}
+
+.symbol .bg_thumb {
+  background-image: url('../img/sprites/symbol.svg#thumb');
+}
+
+.symbol .mask_heart {
+  mask-image: url('../img/sprites/symbol.svg#heart');
+}
+
+.symbol .mask_sun {
+  mask-image: url('../img/sprites/symbol.svg#sun');
+}
+
+.symbol .mask_thumb {
+  mask-image: url('../img/sprites/symbol.svg#thumb');
+}
+
+/* View */
+
+.view .bg_heart {
+  background-image: url('../img/sprites/view.svg#heart');
+}
+
+.view .bg_sun {
+  background-image: url('../img/sprites/view.svg#sun');
+}
+
+.view .bg_thumb {
+  background-image: url('../img/sprites/view.svg#thumb');
+}
+
+.view .mask_heart {
+  mask-image: url('../img/sprites/view.svg#heart');
+}
+
+.view .mask_sun {
+  mask-image: url('../img/sprites/view.svg#sun');
+}
+
+.view .mask_thumb {
+  mask-image: url('../img/sprites/view.svg#thumb');
+}
+
+/* Defs */
+
+.defs .bg_heart {
+  background-image: url('../img/sprites/defs.svg#heart');
+}
+
+.defs .bg_sun {
+  background-image: url('../img/sprites/defs.svg#sun');
+}
+
+.defs .bg_thumb {
+  background-image: url('../img/sprites/defs.svg#thumb');
+}
+
+.defs .mask_heart {
+  mask-image: url('../img/sprites/defs.svg#heart');
+}
+
+.defs .mask_sun {
+  mask-image: url('../img/sprites/defs.svg#sun');
+}
+
+.defs .mask_thumb {
+  mask-image: url('../img/sprites/defs.svg#thumb');
+}
+
+/* Css */
+
+.css .bg_heart {
+  background-image: url('../img/sprites/css.svg#heart');
+}
+
+.css .bg_sun {
+  background-image: url('../img/sprites/css.svg#sun');
+}
+
+.css .bg_thumb {
+  background-image: url('../img/sprites/css.svg#thumb');
+}
+
+.css .mask_heart {
+  mask-image: url('../img/sprites/css.svg#heart');
+}
+
+.css .mask_sun {
+  mask-image: url('../img/sprites/css.svg#sun');
+}
+
+.css .mask_thumb {
+  mask-image: url('../img/sprites/css.svg#thumb');
+}
+
+/* stack */
+
+.stack .bg_heart {
+  background-image: url('../img/sprites/stack.svg#heart');
+}
+
+.stack .bg_sun {
+  background-image: url('../img/sprites/stack.svg#sun');
+}
+
+.stack .bg_thumb {
+  background-image: url('../img/sprites/stack.svg#thumb');
+}
+
+.stack .mask_heart {
+  mask-image: url('../img/sprites/stack.svg#heart');
+}
+
+.stack .mask_sun {
+  mask-image: url('../img/sprites/stack.svg#sun');
+}
+
+.stack .mask_thumb {
+  mask-image: url('../img/sprites/stack.svg#thumb');
+}
