@@ -76,8 +76,11 @@ span {
 
 .mask {
   background-color: black;
+  -webkit-mask-size: 40px;
   mask-size: 40px;
+  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  -webkit-mask-position: center;
   mask-position: center;
 }
 
@@ -96,14 +99,17 @@ span {
 }
 
 .symbol .mask_heart {
+  -webkit-mask-image: url('../img/sprites/symbol.svg#heart');
   mask-image: url('../img/sprites/symbol.svg#heart');
 }
 
 .symbol .mask_sun {
+  -webkit-mask-image: url('../img/sprites/symbol.svg#sun');
   mask-image: url('../img/sprites/symbol.svg#sun');
 }
 
 .symbol .mask_thumb {
+  -webkit-mask-image: url('../img/sprites/symbol.svg#thumb');
   mask-image: url('../img/sprites/symbol.svg#thumb');
 }
 
@@ -122,14 +128,17 @@ span {
 }
 
 .view .mask_heart {
+  -webkit-mask-image: url('../img/sprites/view.svg#heart');
   mask-image: url('../img/sprites/view.svg#heart');
 }
 
 .view .mask_sun {
+  -webkit-mask-image: url('../img/sprites/view.svg#sun');
   mask-image: url('../img/sprites/view.svg#sun');
 }
 
 .view .mask_thumb {
+  -webkit-mask-image: url('../img/sprites/view.svg#thumb');
   mask-image: url('../img/sprites/view.svg#thumb');
 }
 
@@ -148,14 +157,17 @@ span {
 }
 
 .defs .mask_heart {
+  -webkit-mask-image: url('../img/sprites/defs.svg#heart');
   mask-image: url('../img/sprites/defs.svg#heart');
 }
 
 .defs .mask_sun {
+  -webkit-mask-image: url('../img/sprites/defs.svg#sun');
   mask-image: url('../img/sprites/defs.svg#sun');
 }
 
 .defs .mask_thumb {
+  -webkit-mask-image: url('../img/sprites/defs.svg#thumb');
   mask-image: url('../img/sprites/defs.svg#thumb');
 }
 
@@ -174,14 +186,17 @@ span {
 }
 
 .css .mask_heart {
+  -webkit-mask-image: url('../img/sprites/css.svg#heart');
   mask-image: url('../img/sprites/css.svg#heart');
 }
 
 .css .mask_sun {
+  -webkit-mask-image: url('../img/sprites/css.svg#sun');
   mask-image: url('../img/sprites/css.svg#sun');
 }
 
 .css .mask_thumb {
+  -webkit-mask-image: url('../img/sprites/css.svg#thumb');
   mask-image: url('../img/sprites/css.svg#thumb');
 }
 
@@ -200,13 +215,16 @@ span {
 }
 
 .stack .mask_heart {
+  -webkit-mask-image: url('../img/sprites/stack.svg#heart');
   mask-image: url('../img/sprites/stack.svg#heart');
 }
 
 .stack .mask_sun {
+  -webkit-mask-image: url('../img/sprites/stack.svg#sun');
   mask-image: url('../img/sprites/stack.svg#sun');
 }
 
 .stack .mask_thumb {
+  -webkit-mask-image: url('../img/sprites/stack.svg#thumb');
   mask-image: url('../img/sprites/stack.svg#thumb');
 }
